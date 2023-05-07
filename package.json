@@ -1,0 +1,19 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "this is my first node project",
+  "main": "index.js",
+  "bin": {
+    "parrot": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Ashish Sethi\"",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.1.0",
+    "commander": "^10.0.1"
+  }
+}
